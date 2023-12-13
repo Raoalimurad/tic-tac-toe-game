@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d6cbd3;
+text-align: center;
+}
+h1{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 70vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+   height: 600px;
+   width: 600px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+ 
+}
+.box{
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 50px;
+    font-weight: bold;
+    color:rgba(255, 94, 0, 0.986);
+    background-color: #ffffc7;
+}
+#reset{
+    padding: 10px;
+    border: none;
+    border-radius: 14px;
+    width: 130px;
+    background-color: rgba(137, 43, 226, 0.295);
+    color: white;
+    cursor: pointer;
+}
+#reset:hover{
+    background-color: rgba(137, 43, 226, 0.897);
+    color: black;
+}
+.msg-container{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: yellow;
+}
+.btn{
+    background-color: rgba(0, 128, 0, 0.623);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 14px;
+    width: 130px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(0, 128, 0);
+    color: black;
+}
+.hide{
+    display: none;
+}
